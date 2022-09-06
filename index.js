@@ -16,7 +16,7 @@ supervizSdk.subscribe(CONTENT_SYNC_PROPERTY, (newModelSid) => {
 });
 
 const sendSyncCommand = function (index) {
-    supervizSdk.setSyncProperty({ [CONTENT_SYNC_PROPERTY]: FORGE_MODELS[index] });
+    supervizSdk.setSyncProperty(CONTENT_SYNC_PROPERTY, FORGE_MODELS[index]);
 }
 
 document.getElementById('previousButton').onclick = function () {
