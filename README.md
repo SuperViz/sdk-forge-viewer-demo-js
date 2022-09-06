@@ -19,4 +19,4 @@ Fill the constant ```<AUTODESK_FORGE_CLIENT_ID>``` and ```<AUTODESK_FORGE_SECRET
 
 Fill the constants ```<AUTODESK_FORGE_MODEL_URN>``` in the ```index.js ``` with your forge viewer models.
 
-### From the project root, run a local web server and access using localhost.
+#### From the project root, run a local web server and access it using localhost.
