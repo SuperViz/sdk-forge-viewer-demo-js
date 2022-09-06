@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Superviz Autodesk Forge Viewer DEMO</title>
+		<script type="module" src="https://unpkg.com/@superviz/sdk@0.0.35"></script>
+		<!-- The Viewer CSS -->
+		<link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/2.*/style.min.css" type="text/css">
+
+		<script type="module" src="./index.js"></script>
+	</head>
+	<body>
+		<!-- The Viewer will be instantiated here -->
+		<div id="MyViewerDiv"></div>
+		<!-- The Viewer JS -->
+		<script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/2.*/three.min.js"></script>
+		<script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/2.*/viewer3D.min.js"></script>
+		<div class="demo">
+			<button id="previousButton">
+				PREVIOUS
+			</button>
+			<button id="nextButton">
+				NEXT
+			</button>
+		</div>
+	</body>
+</html>
+
+<style>
+	#sv-video-frame {
+		z-index: 10;
+	}
+	.demo {
+		position: absolute;
+		z-index: 100;
+	}
+</style>
